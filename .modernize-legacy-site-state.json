@@ -1,0 +1,11 @@
+{
+  "stage": 1,
+  "openingClassification": "website",
+  "sourceUrl": "https://gonor.clients.site/",
+  "supportingProfileUrl": "https://yandex.ru/maps/org/gonor/113668664800/",
+  "mobileStatus": "limited",
+  "implementedRoutes": ["/"],
+  "deferredRoutes": ["/prices/", "/gallery/", "/reviews/"],
+  "assetAudit": {"logo": "found", "primaryPhotos": "found", "bookingLink": "verified"},
+  "lastResearchDate": "2026-09-21"
+}

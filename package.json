@@ -1,0 +1,29 @@
+{
+  "name": "business-site-starter",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "validate:links": "node scripts/validate-links.mjs",
+    "typecheck": "tsc --noEmit",
+    "build": "npm run validate:links && tsc -b && vite build && node scripts/generate-route-shells.mjs",
+    "preview": "vite preview",
+    "publish:github": "bash scripts/publish-github.sh",
+    "screenshot": "node scripts/capture-screenshot.mjs"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.8.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^5.0.2",
+    "playwright": "1.61.0",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.3"
+  }
+}
